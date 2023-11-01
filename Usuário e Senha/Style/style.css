@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #007bff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-button {
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.menu-button:hover {
+    background-color: #e0e0e0;
+}
+
+.container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+}
+
+.login-form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
